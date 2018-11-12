@@ -11,4 +11,5 @@ def assign_rooms(attendees)
   until room > 7
     "Hello, #{attendees}! You'll be assigned room #{room}!"
     room +=1
+  end
 end
