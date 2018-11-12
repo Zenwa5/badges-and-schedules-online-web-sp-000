@@ -12,7 +12,7 @@ def assign_rooms(attendees)
     attendees.collect do |name|
     puts "Hello, #{name}! You'll be assigned room #{room}!"
     room +=1
-    assign_rooms(name) 
+    return assign_rooms(name) 
     end
   end
 end
