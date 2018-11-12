@@ -9,7 +9,7 @@ end
 def assign_rooms(attendees)
   room = 1
   until room > 7
-    attendees.each do |name|
+    attendees.collect do |name|
     return "Hello, #{name}! You'll be assigned room #{room}!"
     room +=1
     end
